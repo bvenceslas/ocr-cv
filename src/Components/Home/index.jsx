@@ -2,10 +2,12 @@ import { Avatar } from 'antd';
 import './style.scss';
 import myPicture from '../image/brain.png';
 import { GithubOutlined, LinkedinOutlined, TwitterOutlined } from '@ant-design/icons';
+import { Works } from '../Works';
 
 export function HomePage(){
 
     return(
+        <>
         <div className="home-page">
            <div className="content">
                <div className="div-avatar">
@@ -22,5 +24,8 @@ export function HomePage(){
                </div>
            </div>
         </div>
+        {/* my works */}
+        <Works />
+        </>
     )
 }
