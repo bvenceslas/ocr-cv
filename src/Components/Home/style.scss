@@ -1,0 +1,68 @@
+.home-page
+{
+    background-image: url('../image/bg.jpeg');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    padding: 50px;
+}
+.home-page::after
+{
+    content: '';
+    width: 99.65%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    overflow-x: hidden;
+    left: 0;
+}
+.content
+{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+}
+.div-avatar
+{
+    margin-top: -100px;
+}
+.div-intro
+{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+// .intro-name
+// {
+//     border-bottom: 1px solid white;
+// }
+.intro-poste
+{
+    font-weight: 15;
+    font-size: 20px;
+}
+.div-socials
+{
+    display: flex;
+    font-size: 30px;
+}
+.div-socials div:not(:first-child)
+{
+    margin-left: 20px;
+}
+.div-socials div {
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+}
+.div-socials div a 
+{
+    color: white;
+}
+.div-socials div:hover
+{
+    opacity: 0.5;
+}
