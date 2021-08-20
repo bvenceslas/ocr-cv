@@ -3,6 +3,7 @@ import './style.scss';
 import myPicture from '../image/brain.png';
 import { GithubOutlined, LinkedinOutlined, TwitterOutlined } from '@ant-design/icons';
 import { Works } from '../Works';
+import { ServicesPage } from '../Services';
 
 export function HomePage(){
 
@@ -26,6 +27,8 @@ export function HomePage(){
         </div>
         {/* my works */}
         <Works />
+        {/* services */}
+        <ServicesPage />
         </>
     )
 }
