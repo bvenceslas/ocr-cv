@@ -1,5 +1,6 @@
 # ocr-cv
 A CV test from ocr
+Here is the [preview](https://bvenceslas.github.io/ocr-cv/)
 
 ## Getting Started
 
