@@ -70,4 +70,13 @@ header {
     justify-content: space-between;
 }
 
+.experience {
+    padding: 5px 10px 5px 0;
+}
+
+.experience ul:hover {
+    border-left: 3px solid grey;
+    box-shadow: 0.3px 0.3px 0px grey
+}
+
 
