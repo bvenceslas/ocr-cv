@@ -53,17 +53,21 @@ header {
 }
 
 
-/* main-page */
+/* section descript */
+.descript {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px 0 ;
+    text-align: justify;
+}
 
 
+/* section expertise */
+#expertise {
+    padding: 5px 30px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
 
-/* main-page */
 
-
-
-
-/* main-page */
-
-
-
-/* main-page */
