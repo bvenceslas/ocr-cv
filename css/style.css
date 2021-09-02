@@ -45,6 +45,10 @@ header {
 
 /* tof */
 
+.tof {
+    
+    border: 1px solid red;
+}
 
 .tof img {
     width: 150px;
@@ -80,3 +84,48 @@ header {
 }
 
 
+/* Responsiveness */
+
+@media screen and (max-width: 768px) {
+    
+    /* logo should disappear */
+    .logo {
+        display: none;
+    }
+
+    /* fullname should get 50% of the screen */
+
+    .full-name {
+        width: 50%;
+        cursor: pointer;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* name should reduce the size */
+
+    .name {
+        font-weight: bold;
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* profession should reduce also the size */
+
+    .profession {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* expertise should align vertically */
+
+    #expertise {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}
